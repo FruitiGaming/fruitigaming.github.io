@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Merch Store</title>
+  <style>
+    /* Your CSS styles */
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .container {
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 20px;
+    }
+    .item {
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+    }
+    .item img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .item p {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Robux Merch Store!</h1>
+
+    <div class="item">
+      <a href="https://www.roblox.com/catalog/14601462352/FruitiGaming-Merch" target="_blank">
+        <img src="IMG_6350.png" alt="Item 1">
+        <p>FruitiGaming Robux Merch</p>
+        <p>10 Robux</p>
+      </a>
+    </div>
+
+    <!-- Add more items as needed -->
+  </div>
+</body>
+</html>
